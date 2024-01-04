@@ -1,0 +1,18 @@
+.navbar{
+    margin-right: 0px;
+}
+.shopping-cart {
+    justify-items: start;
+  }
+.shopping-cart h2{
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #fff;
+    justify-content: start;
+}
+.shopping-cart p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 5px;
+    justify-content: start;
+}

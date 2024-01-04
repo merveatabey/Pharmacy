@@ -1,0 +1,120 @@
+.chat-button{
+    position: fixed;
+    width: 500px;
+    bottom: 40px;
+    right: 66px;
+    border: 2px solid white;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.chat-button .tooltip{
+    margin-left: 128px;
+}
+.tooltip{
+    position:static;
+    top: -80px;
+    left: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    font-weight: bold;
+}
+.header{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 130px;
+    padding: 70px;
+    align-items: center;
+    text-align: center;
+}
+.header span{
+    display: block;  
+}
+.corner-button{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+    border: 2px solid white;
+    padding: 25px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+.prescription-form {
+    position: fixed;
+    top: 48%;
+    right: 20%;
+    transform: translate(50%, -50%);
+    max-width: 400px;
+    padding: 4%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+}
+.prescription-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.prescription-form input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+.prescription-form input::placeholder{
+    color: #fff;
+}
+.prescription-form button {
+    width: 150%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: -8px;
+    background-color: white;
+    color: gray;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.prescription-form button:hover {
+    background-color: #f0f0f0;
+}
+.prescription-camera{
+    display: flex;
+    flex-direction: column;
+    top: 28%;
+    left: 7%;
+    align-items: center;
+    min-width: 380px; /* Dilediğin genişlikte ayarlayabilirsin */
+    min-height: 310px; /* Dilediğin yükseklikte ayarlayabilirsin */
+    border: 2px solid #fff;
+    border-radius: 5px;
+    position: fixed;
+}
+.icon-frame{
+    margin-top: 80px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: poniter;
+    background-color: white;
+}
+.icon-frame:hover{
+    background-color: #f5f5f5;
+}
+p{
+    margin-top: 20px;
+    font-size: 16px ;
+    font-weight:bold;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+[
+    {
+      "name": "Cilt Bakımı",
+      "link": "/SkinCare",
+      "subcategories": ["Yüz Kremi", "Yüz Temizleme", "Yüz Maskesi", "Göz Bakımı","Güneş Koruyucu", "Cilt Serumu", "Nemlendiriciler", "Dudak Bakımı"]
+    },
+    {
+      "name": "Saç Bakımı",
+      "link": "/HairCare",
+      "subcategories": ["Şampuan", "Saç Kremi", "Saç Vitamini"]
+    },
+    {
+      "name": "Kişisel Bakım",
+      "link": "/PersonalCare",
+      "subcategories": ["Diş Macunu", "Diş Fırçası", "Deodorant", "Pamuk", "Gıda Takviyeleri"]
+    },
+    {
+      "name": "Genel Bakım",
+      "link": "/GeneralCare",
+      "subcategories": ["Vücut Bakımı", "El ve Ayak Bakımı", "Dezenfektan", "Sabun"]
+    },
+    {
+      "name": "Anne & Bebek",
+      "link": "/Mom&Baby",
+      "subcategories": ["Bebek Bezi", "Bebek Şampuanı", "Krem ve Yağlar", "Islak Mendil", "Bebek Buhar Makinesi", "Bebek Ateş Ölçer"]
+    }
+  ]
+  

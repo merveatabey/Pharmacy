@@ -1,0 +1,131 @@
+.medicine-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 235px;
+  z-index: 2;
+}
+
+.medicine-list {
+  min-width: 450px;
+  margin: 20px auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.medicine-list h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+  margin-left: 80px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.medicine-list table {
+  min-width: 200%;
+  border-collapse: initial;
+  margin-top: 10px;
+  margin-left: -220px;
+}
+
+.medicine-list th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.medicine-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.medicine-list .cancel-icon {
+  color: red;
+  cursor: pointer;
+}
+
+.medicine-list .cancel-icon:hover {
+  text-decoration: underline;
+}
+
+.medicine-list tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.pharmacy-list {
+  min-width: 450px;
+  margin: 20px auto;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pharmacy-list h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #fff;
+  margin-left: 70px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pharmacy-list table {
+  width: 200%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-left: -220px;
+
+}
+
+.pharmacy-list th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pharmacy-list td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.pharmacy-list th {
+  background-color: #f2f2f2;
+}
+
+.pharmacy-list input[type='checkbox'] {
+  width: 20px;
+  height: 20px;
+}
+
+.pharmacy-list td input[type='checkbox'] {
+  margin: 0;
+}
+
+.pharmacy-list tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.button {
+  background-color: #fff;
+  width: 200%;
+  height: 45px;
+  border: 2px solid #fff;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 880px;
+  padding: 10px;
+  background: none;
+  margin-bottom: 50px;
+  margin-left: -80px;
+}
+

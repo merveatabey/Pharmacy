@@ -1,0 +1,78 @@
+.birleşim{
+  display: flex;
+  justify-content:space-between;
+  width: 1000px;
+}
+.account {
+    width: 500px;
+    height: 580px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    align-items: flex-start;
+  }
+  .account form{
+    align-items: flex-start;
+  }
+  
+  .account h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  
+  .forms-sample {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .info-box {
+    margin-bottom: 8px;
+  }
+  
+  .info-box label {
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .info-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+  }
+   button{
+    color: white;
+    background-color: green;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+    width: 50%;
+    align-items: center;
+
+  }
+  .update-password {
+    width: 400px;
+    height: 410px;
+    padding: 20px;
+    border: 2px solid #ddd;
+  }
+  .update-password h2{
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .info-message {
+    font-size: 14px;
+    color: #777;
+    display:block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }

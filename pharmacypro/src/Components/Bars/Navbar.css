@@ -1,0 +1,92 @@
+.navbar {
+  position:absolute;
+  display:flex;
+  top: 0px;
+  margin-left: -705px;
+  justify-content:space-between;
+  align-items: center;
+  padding: 25px;
+  background-size: cover;
+  width: 95%;
+  height: 100px;
+  border-bottom: 1px solid #fff;
+
+}
+.search-bar{
+  padding-top: 3vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-width: 250px;
+}
+.nav-links{
+  display: flex;
+  gap: 25px;
+  margin-right: 150px;
+  margin-left: 20px;
+}
+.icon-with-text {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  color:white;
+}
+.icon-with-text span {
+  margin-top: 10px; /* İcon ile metin arasındaki boşluğu ayarlamak için */
+}
+.icon-with-text svg {
+  margin-right: 5px;
+}
+.nav-links .icon-with-text + .icon-with-text {
+  margin-left: 0;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  background-color: rgb(136, 174, 190);
+  width: 50%;
+  box-shadow: 0 8px 16px rgb(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -300px;
+  margin-top: 155px; 
+  
+}
+.icon-with-text:hover .submenu {
+  display: block;
+}
+
+.submenu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.submenu a:hover {
+  background-color: rgb(44, 109, 137);
+}
+.categories-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.category-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.subsubmenu {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.subsubmenu a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;  
+}
+
+.subsubmenu a:hover {
+  background-color:  rgb(44, 109, 137);
+}
